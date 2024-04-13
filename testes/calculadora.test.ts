@@ -4,6 +4,7 @@ import  {subtrair}  from '../src/operacoes/subtracao';
 import  {multiplicar}  from '../src/operacoes/multiplicacao';
 import  {dividir}  from '../src/operacoes/divisao';
 
+// Testes unitários para a calculadora
 describe('Calculadora', () => {
   let calculadora: Calculadora;
 
@@ -34,8 +35,8 @@ describe('Calculadora', () => {
   it('deve lançar um erro ao dividir por zero', () => {
     expect(() => {
       dividir(10, 0);
-    }).toThrowError('Não é possível dividir por zero');
+    }).toThrow('Não é possível dividir por zero');
   });
 });
 
-// rodar os testes
+

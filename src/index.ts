@@ -1,4 +1,4 @@
-import { Calculadora } from './calculadora';
+import  Calculadora  from './calculadora';
 
 // Cria uma instância da calculadora
 const calculadora = new Calculadora();
