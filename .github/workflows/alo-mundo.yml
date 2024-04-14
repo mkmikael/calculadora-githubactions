@@ -4,7 +4,6 @@ name: Alô Mundo
 on:
   # Dispara o workflow manualmente
   workflow_dispatch:
-    
 
 # Define os jobs a serem executados
 jobs:
